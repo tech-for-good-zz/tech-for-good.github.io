@@ -1,0 +1,120 @@
+/**
+*
+* Dropdown menu
+*
+**/
+
+element.style {
+}
+responsivemedia="screen"
+@media only screen and (min-width: 620px)
+.main-nav__list {
+    position: static;
+}
+responsivemedia="screen"
+@media only screen and (min-width: 800px)
+.main-nav__list {
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 864px;
+}
+responsivemedia="screen"
+@media only screen and (min-width: 620px)
+.main-nav__list {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 688px;
+}
+responsivemedia="screen"
+.main-nav__list {
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+}
+responsivemedia="screen"
+dl, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 32px;
+}
+responsivemedia="screen"
+.base, .medium, dl, h4, ol, p, ul {
+    font-size: 16px;
+    line-height: 1.625em;
+    padding-top: 1.625em;
+    padding-bottom: 0;
+    letter-spacing: 0;
+}
+responsivemedia="screen"
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from header.main-header
+responsivemedia="screen"
+.main-header {
+    background: #404040;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+}
+Inherited from body.page--article.article--multi-screen.theme--multi-screen
+responsivemedia="screen"
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.625em;
+    font-weight: 300;
+    color: #404040;
+    position: relative;
+}
+responsivemedia="screen"
+body, button, html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+Inherited from html.js.is-touch
+responsivemedia="screen"
+body, button, html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+responsivemedia="screen"
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+responsivemedia="screen"
+.clear:after, .clear:before {
+    content: "";
+    display: table;
+}
+Pseudo ::after element
+responsivemedia="screen"
+.clear:after {
+    clear: both;
+}
+responsivemedia="screen"
+.clear:after, .clear:before {
+    content: "";
+    display: table;
+}
+
+
