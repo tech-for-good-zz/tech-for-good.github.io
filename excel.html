@@ -1,8 +1,279 @@
-<!doctype html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=description content="A front-end template that helps you build fast, modern mobile web apps."><meta name=viewport content="width=device-width, initial-scale=1"><title>Microsoft - Citizenship</title><link rel=manifest href=manifest.json><meta name=mobile-web-app-capable content=yes><meta name=application-name content="Web Starter Kit"><link rel=icon sizes=192x192 href=images/touch/chrome-touch-icon-192x192.png><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><meta name=apple-mobile-web-app-title content="Web Starter Kit"><link rel=apple-touch-icon href=images/touch/apple-touch-icon.png><link rel=stylesheet href=styles/index.css><link rel=stylesheet href=styles/common.css><link rel=stylesheet href=styles/outlook.css><meta name=msapplication-TileImage content=images/touch/ms-touch-icon-144x144-precomposed.png><meta name=msapplication-TileColor content=#3372DF><meta name=theme-color content=#3372DF><link rel=stylesheet href=styles/main.css></head><body><header class="app-bar promote-layer"><div class=app-bar-container><button class=menu><i class="icon icon-menu" style="color: white; padding-top: 7px;"></i></button><h1 class=logo id=logo-header-text>Tips and Tricks for <strong>Lync</strong>, <strong>Outlook</strong>, <strong>Word</strong> and <strong>Excel</strong></h1><section class=app-bar-actions><h5 class="white-text normal-font-weight">By the Microsoft Tech4Good citizenship team</h5></section></div></header><nav class="navdrawer-container promote-layer"><h4>Menu</h4><ul><li><a href=index.html>Home</a></li><li><a href=lync.html>Lync</a></li><li><a href=outlook.html>Outlook</a></li><li><a href=word.html>Word</a></li><li class=navbar-selected><a href=excel.html>Excel</a></li></ul></nav><main><img src=excel2010.png class=top-image><h1 id=hello class=top-text>Excel</h1><p>Coming soon.</p></main><div class=bottom></div><script src=scripts/main.min.js></script><script>
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Microsoft - Citizenship</title>
+
+    <!-- Add to homescreen -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Fallback to homescreen for Chrome <39 on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/outlook.css">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <meta name="theme-color" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header class="app-bar promote-layer">
+      <div class="app-bar-container">
+        <button class="menu">
+        <i class="icon icon-menu" style="color: white; padding-top: 7px;"></i></button>
+        <h1 class="logo" id="logo-header-text">Tips and Tricks for <strong>Lync</strong>, <strong>Outlook</strong>, <strong>Word</strong> and <strong>Excel</strong></h1>
+
+        <section class="app-bar-actions">
+        <!-- Put App Bar Buttons Here -->           
+          <!-- <form class="search" method="post" action="index.html">
+            <input type="search" name="q" placeholder="Search..." autocomplete="off">
+            <ul class="search-ac">
+              <li><a href="index.html">Search Result #1<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #2<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #3<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #4</a></li>
+            </ul>
+          </form>    -->
+          <h5 class="white-text normal-font-weight">By the Microsoft Tech4Good citizenship team</h5>
+        </section>
+      </div>
+    </header>
+
+    <nav class="navdrawer-container promote-layer">    
+      <ul >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lync.html">Lync</a></li>
+        <li><a href="outlook.html">Outlook</a></li>
+        <li><a href="word.html">Word</a></li>
+        <li class="navbar-selected">
+          <a href="excel.html">Excel</a>
+          <!-- <div class="dropdown-menu">
+            <div class="dropdown">
+              <ul>
+                <li><a href="excel-intermediate.html" class="dropdown">Intermediate</a></li>
+                <li><a href="excel-advanced.html" class="dropdown">Advanced</a></li>
+              </ul>
+            </div>
+          </div>  -->         
+        </li>    
+      </ul>
+
+      </nav>
+
+
+    <main>     
+      <h1 id="hello" class="top-text"><img src="excel2010.png" class="top-image" />   Work Smart with Excel</h1>
+      <p>Tips and tricks for Excel</p>
+      <h2 id="get-started">Interesting facts about Excel</h2>
+      <h3><strong>Excel. </strong> <strong class="text-muted">A grid interface to organize nearly any type of information.</strong></h3>
+      <p> 
+        Do you know Excel is Microsoft’s first Office application which was originally released under the name <strong>Multiplan </strong> in 1982, Microsoft changed the name to Excel when first releasing it for the Macintosh in 1985.
+        Since Excel was initially launched on the Macintosh, its first release for Windows in 1987 was already version 2.0.        
+      </p>
+      <h3><strong>Excel. </strong> <strong class="text-muted"> Ability to handle 1,048,576 rows by 16,384 columns for each worksheet.</strong></h3>
+      
+      <p>  
+        The power of Excel lies in it's flexibility to define the layout and structure of the information you want to manage. Excel is used widely in any financially-related activity.  The ability to create new spreadsheets where users can define custom formulas to calculate anything from a simple quarterly forecast to a full corporate annual report makes Excel highly appealing. Other applications include tracking like a list of sales leads, project status reports, contact lists,  invoicing and statistical analysis with large data sets. Let's see how it works! 
+      </p> 
+
+      <h2>Tips and tricks</h2>
+      <dl id="tips-tricks-dl">
+        <dt><a href="#excel-keyboard-shortcuts">Master keyboard shortcuts</a></dt>    
+        <dt><a href="#Using Fill">Using Fill</a></dt>
+        <dt><a href="#Cell References">Cell References</a></dt>
+        <dt><a href="#Naming Cells and Ranges">Naming Cells and Ranges</a></dt>
+        <dt><a href="#Logical Functions">Logical Functions</a></dt>
+        <dt><a href="#Conditional Formats">Conditional Formats</a></dt>
+        <dt><a href="#Control Worksheets">Control Worksheetsl</a></dt>
+        <dt><a href="#Find And Replace">Find And Replace</a></dt>
+        <dt><a href="#Sort Data Lists">Sort Data Lists</a></dt>
+        <dt><a href="#Filtering Lists">Filtering Lists</a></dt>
+        <dt><a href="#Creating Charts">Creating Charts</a></dt>
+        <dt><a href="#Format Chart Text">Format Chart</a></dt>
+      </dl>
+
+      <p id="excel-keyboard-shortcuts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Master those keyboard shortcuts.</b><br>
+        Some keyboard shortcuts for the most commonly used features in Excel.
+        <ul>
+          <li><strong>Ctrl + Space:</strong> Select column.</li>
+          <li><strong>Shift + Space</strong> Select row.</li>
+          <li><strong>Ctrl + '-' (minus sign)</strong> Delete row(s)/ column(s).</li>
+          <li><strong>Ctrl + D</strong> Fill down.</li>
+          <li><strong>Ctrl + R</strong> Fill right.</li>
+        </ul><br>             
+        <a href="excel-cheatsheet.pdf">Cheatsheet with full list of Excel keyboard shortcuts (pdf)</a>
+      </p>       
+
+      <p id="Using Fill">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Using Fill</b><br>
+        One of the most popular questions is how to autofill numbers in Excel. This can also be <strong>dates, times, days of the week, months, years</strong> and so on. In addition, Excel's AutoFill will follow any pattern. 
+        For example, if you need to continue a <strong>sequence</strong>, just enter the first two values into the starting cell and <u>grab the fill handle</u> to copy the data across the specified range.  
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-autofill.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>
+      </p>   
+
+      <p id="Cell References">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Relative/ Absolute Cell References </b><br>
+        By default, Excel uses relative reference. Relative cell references are basic cell references that adjust and change when copied or when using AutoFill. Situations arise in which the cell reference must remain the same when copied or when using AutoFill. Dollar  signs '$' are used to hold a column and/or row reference constant.
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-cellreferences.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>     
+      </p>   
+
+      <p id="Naming Cells and Ranges">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Naming Cells and Ranges</b><br>
+        Assign a descriptive name to a cell or range to help make formulas in your worksheets much easier to understand and maintain. Range names make it easier for you to remember the purpose of a formula, rather than using obscure cell references.
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            Select the cell range that you want to name and click Define Name in Formulas ribbon.
+            <img src="excel-Naming-Cells-and-Ranges.png" class="img-thumbnail" width="55%" height="50%"><br>
+            To use the named range, click the down arrow in the Name box at the left end of the Formula bar.
+            <img src="excel-Naming-Cells-and-Ranges2.png" class="img-thumbnail" width="55%" height="50%">
+          </div>
+        </div>
+      </p>   
+
+      <p id="Logical Functions">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Logical Functions</b><br>
+        The IF function is one of Excel's logical functions that evaluates a certain condition and returns the value you specify if the condition is TRUE, and another value if the condition is FALSE. <br>       
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            The syntax for Excel IF is as follows: 
+            <strong>IF(logical_test, [value_if_true], [value_if_false])</strong>
+            <img src="excel-LogicalFunctions.png" class="img-thumbnail" width="60%" height="60%"><br>
+            The table below demonstrates the IF formula with the <strong>"Greater than or equal to"</strong> logical operator in action: 
+            <img src="excel-LogicalFunctions2.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>
+      </p>   
+
+      <p id="Conditional Formats">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Conditional Formats</b><br>
+        Applying conditional formatting to data can help you, at a glance, quickly identify variances in a range of values. Some of the rules that are available with conditional formatting include the following:
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-ConditionalFormats.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>
+      </p>   
+
+      <p id="Control Worksheets">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Control Worksheets</b><br>
+        Some keyboard shortcuts for controlling worksheets in Excel.
+        <ul>
+          <li><strong>Ctrl + Arrow:</strong> Move to the edge of your current data region.</li>
+          <li><strong>Shift + Page Up</strong> Next Sheet.</li>
+          <li><strong>Ctrl + Page Down</strong> Previous Sheet.</li>
+          <li><strong>Sheet Actions</strong> Drag to move a sheet.</li>
+          <li>Drag + CTRL to copy a sheet.</li>
+          <li>Right Click to move or copy a sheet in another Excel file open in the same Excel program.</li>
+        </ul>
+      </p>   
+
+      <p id="Find And Replace">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Find And Replace</b><br>
+        You can use Excel's Find and Replace feature to quickly find specific text and replace it with other text. <br>You can use Excel's Go To Special feature to quickly select all cells with formulas, comments, conditional formatting, constants, data validation, etc. 
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-Find-and-Replace.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>
+      </p>   
+
+      <p id="Sort Data Lists">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Sort Data Lists</b><br>
+        With built-in custom lists, you can sort data by days of the week or months of the year. Or create your own custom lists to sort by any other characteristic that doesn’t sort well alphabetically, such as high, medium, and low or S, M, L, XL.
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-sorting.png" class="img-thumbnail" width="35%" height="35%">
+            <img src="excel-sorting2.png" class="img-thumbnail" width="60%" height="60%">
+          </div>
+        </div>
+      </p>      
+
+      <p id="Filtering Lists">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Filtering Lists</b><br>      
+        When you use the Advanced Filter, you need to enter the criteria on the worksheet. Create a Criteria range (blue border below for illustration only) above your data set. Use the same column headers. Be sure there's at least one blank row between your Criteria range and data set. 
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-filtering.png" class="img-thumbnail" width="70%" height="70%"><br>
+            
+            <img src="excel-filtering2.png" class="img-thumbnail" width="70%" height="70%">
+          </div>
+        </div>
+      </p>      
+
+      <p id="Creating Charts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Creating Charts</b><br>
+        To insert a chart, select the date you wish to appear in the chart, and then go to the Insert Ribbon (if the data is noncontiguous, you can select one set, then hold down the Control key on the keyboard to select the second set). In the Charts Group, choose the type of chart you’d like. Click on the arrow below the type icon to see the subtypes. 
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-chart.png" class="img-thumbnail" width="60%" height="60%">
+          </div>
+        </div>
+      </p>      
+
+      <p id="Format Charts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Format Charts</b><br>
+        Once your chart appears in Excel, there are many ways to modify the way it looks and its location. A few ways are described below, but explore to find more! In all cases, you have to select the chart first to see the context sensitive Ribbons (Design, Layout, and Format).
+        <div id="keyboard-contents">
+          <div id="keyboard-right">
+            <img src="excel-format-chart.png" class="img-thumbnail" width="70%" height="70%">
+          </div>From either the Chart Tools Layout Ribbon or the Chart Tools Format Ribbon, you can select an element on the chart, then choose the Format Selection icon in the Current Selection Group. In the Format [Selected item] dialog box, you can change the shape, style and color.
+        </div>
+        
+      </p>      
+
+      <h2 id="excel-best-practices">Best Practices*</h2>
+      <strong>------ Practise! Practise! And Practise! -------</strong><br> 
+      <strong>------ Get your hands dirty and have fun! -----</strong><br>    
+      <dt><a href="excel-practice.pdf">Hands-on Practice Guide (pdf)</a></dt>   
+      <dt><a href="excel-workbook.xlsx">Hands-on Practice Workbook (xlsx)</a></dt>   
+    </main>
+
+    <div class="bottom">
+    </div>
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-66128098-1', 'auto');
       ga('send', 'pageview');
-    </script></body></html>
+    </script>
+    <!-- Built with love using Web Starter Kit -->
+
+
+</html>
